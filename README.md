@@ -33,6 +33,15 @@ Then:
 cf push
 ```
 
+## Use it as base
+If you use this repository as base to start another project. you can create a new reposiotry as:
+```
+git clone https://github.com/<your-user-name>/bluemix-dev <new-repo-name>
+cd <new-repo-name>
+git remote set-url origin https://github.com/<your-user-name>/<new-repo-name>
+git push origin master
+```
+
 ### Thanks
 [Zero2Cognitive](https://github.com/rddill-IBM/ZeroToCognitive)
 
