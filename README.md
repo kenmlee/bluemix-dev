@@ -5,6 +5,10 @@ A simple start kit for web-app@bluemix with Nodejs+Angular+Skeleton.
 
 ## Installation
 ```
+yarn 
+```
+or
+```
 npm install
 ```
 

@@ -5,7 +5,11 @@ import {BrowserModule} from "@angular/platform-browser";
 
 @Component({
     selector: 'my-app',
-    template: `<h1>Hello Bluemix Developer</h1>`
+	template: `
+	<h1>Hello Bluemix Frontend Developer</h1>
+	<hr>
+	<img src="images/node-red-flow.png"/>
+	`
 })
 export class HelloDev {
 
